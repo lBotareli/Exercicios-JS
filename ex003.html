@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(36, 36, 36);
+}
+
+main {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.452);
+}
+    </style>
+</head>
+<body>
+    
+    <script>
+        // Teste 1 
+        // var n1 = window.prompt('Digite um número: ')  string
+        // var n2 = window.prompt('Digite outro número: ')  string
+        // var soma = n1 + n2
+        // window.alert('A soma dos valores é ' + soma)
+
+
+        // + para adição, porem também serve pra concatenação
+        // (number + number) para adição
+        // (string + string) para concatenação
+        // numero inteiro Number.parseInt
+        // numero real Number.parseFloat. Número real = Número "quebrado"
+
+        // Teste 2
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var soma = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`)
+
+        // para não ter conflito e ter uma codagem complexa pode-se utilizar apenas o comando Number ao invés do .parseInt ou .parseFloat
+        // pode também converter uma string para number com o comando String(n) ou n.toString() caso o contrário
+        /* var s = 'JavaScript'
+        'Estou aprendendo s'        não faz interpolação
+        'Estou aprendendo' + s      usa concatenação
+        `Estou aprendendo ${s}`     usa template string
+        s.length                    conta caracteres da string
+        s.toUpperCase()             coloca tudo em MAIÚSCULO
+        s.toLowercase()             coloca tudo em minúsculo
+        Aplicado no Exercício 4*/
+    </script>
+        <header>
+            <h1>Olá Mundo!!</h1>
+            </header>
+            <article>
+            <h2>Páragrafo 1</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt ut quaerat nobis? Nobis optio odit, totam illum sunt, aut quam amet explicabo consectetur tempora omnis, minima ducimus nihil repudiandae tempore.</p>
+                </article>
+             <article>
+                <h2>Páragrafo 2</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur architecto quos dignissimos inventore tempore ducimus maiores vitae incidunt sint eos cumque doloremque saepe, ipsa esse perspiciatis dolores quibusdam, recusandae iste.</p>
+            </article>
+</body>
+</html>
